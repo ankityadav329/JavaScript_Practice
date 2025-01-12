@@ -1,0 +1,54 @@
+<!-- Write a JavaScript program where the program takes a random integer between 1 and 10, and the user is then prompted to input a guess number. The program displays a message "Good Work" if the input matches the guess number otherwise "Not matched".  -->
+
+<!-- ====================== Solution ========================== -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Number Guessing Game</title>
+  </head>
+  <body>
+    <h1>Guess the Complete Number between 1 to 10</h1>
+
+    <script>
+      function playGame() {
+        // Taking the user Input
+        function userInput() {
+          let usrNumber = prompt("Enter number between 1 to 10");
+          // checking if user entered btw 1 - 10
+          if (usrNumber >= 1 && usrNumber <= 10) {
+            console.log("Number is entered Correctly");
+            return usrNumber;
+          }
+
+          // When user press Cancel of directly ok without entering.
+          else if (usrNumber === null || usrNumber === "") {
+            // in the browser, we can stop js by throwing the error
+            throw new Error("Halting the program.");
+          } else if (usrNumber >= 0) {
+            confirm("Are you Kidding me? enter btw 1 to 10 only");
+            userInput();
+          }
+        }
+
+        let usrNumber = userInput();
+
+        // Generating Random Number between 1 to 10
+        let randomNumber = Math.floor(Math.random() * 10) + 1;
+
+        // Checking the Guess
+        usrNumber == randomNumber
+          ? alert(`Good Work`)
+          : alert(`Not Matched: ${usrNumber} not equal to ${randomNumber}`);
+
+        let playMore = confirm("Want to Play Again");
+
+        playMore ? playGame() : console.log("Game Exited");
+      }
+
+      playGame();
+    </script>
+  </body>
+</html>
