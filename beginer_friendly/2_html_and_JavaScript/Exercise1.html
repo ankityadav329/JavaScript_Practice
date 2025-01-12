@@ -1,0 +1,32 @@
+<!-- 
+Write a JavaScript program to rotate the string 'w3resource' in the right direction. This is done by periodically removing one letter from the string end and attaching it to the front.
+
+-->
+
+<!-- =============================== Solution ==================================== -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>String Rotaion Animation</title>
+  </head>
+  <body>
+    <div id="string">W3resource</div>
+
+    <script>
+      function animate_string() {
+        str = document.getElementById("string").innerText;
+        str += " "; // appending a whitespace.
+
+        // animating the string using the time-interval function
+        setInterval(function () {
+          str = str[str.length - 1] + str.slice(0, -1);
+          document.getElementById("string").innerText = str;
+        }, 200);
+      }
+      animate_string();
+    </script>
+  </body>
+</html>
