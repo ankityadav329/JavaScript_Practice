@@ -4,7 +4,7 @@ Write a JavaScript Program to check two numbers and return true if one of the is
 
 */
 
-// Solution Down Here ----->
+// ==================== Solution ==================================
 
 let num1 = Math.floor(Math.random() * 100) + 1; // generate random number from 1 to 100
 let num2 = Math.floor(Math.random() * 100) + 1;
@@ -26,4 +26,3 @@ else if(num1+num2 === 100){
 else{
     console.log(false);
 }
-
