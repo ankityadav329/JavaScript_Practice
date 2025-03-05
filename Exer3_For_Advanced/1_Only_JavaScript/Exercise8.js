@@ -1,1 +1,1 @@
-// Problem: Write a function that counts the number of vowels in a given string.
+// Problem: Write a function that finds all unique pairs in an array whose sum equals a specific target.

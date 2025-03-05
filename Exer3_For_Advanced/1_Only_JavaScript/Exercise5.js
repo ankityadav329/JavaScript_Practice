@@ -1,1 +1,1 @@
-// Problem: Write a function that finds the second highest number in an array.
+// Problem: Write a function that flattens a nested array of arbitrary depth.

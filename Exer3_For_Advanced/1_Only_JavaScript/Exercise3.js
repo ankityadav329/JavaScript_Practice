@@ -1,1 +1,1 @@
-// Problem: Write a function that takes a string and returns an object representing the frequency of each character.
+// Problem: Write a function that finds the longest substring without repeating characters.

@@ -1,1 +1,1 @@
-// Problem: Write a function that merges two sorted arrays into one sorted array.
+// Problem: Write a function that rotates an array to the left by n positions.

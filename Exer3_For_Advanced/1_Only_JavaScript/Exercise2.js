@@ -1,1 +1,1 @@
-// Problem: Write a function that sorts an array of numbers in ascending order without using the built-in sort function.
+// Problem: Write a function that checks if two strings are anagrams (ignoring case and spaces).

@@ -1,1 +1,1 @@
-// Problem: Write a function that removes duplicate elements from an array without using Set.
+// Problem: Write a function that simulates a dynamic FizzBuzz. Given two divisors and a limit, print numbers from 1 to the limit. For multiples of the first divisor, print "Fizz"; for multiples of the second, print "Buzz"; and for multiples of both, print "FizzBuzz".

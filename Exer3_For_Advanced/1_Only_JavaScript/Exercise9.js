@@ -1,1 +1,1 @@
-// Problem: Write a function that checks if a given string is a pangram (contains every letter of the alphabet).
+// Problem: Write a function that converts a sentence so that the first letter of each word is capitalized.

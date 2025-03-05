@@ -1,1 +1,1 @@
-// Problem: Write a function that returns all prime numbers less than a given number.
+// Problem: Write a function that implements binary search on a sorted array to find the index of a given element. Return -1 if not found.

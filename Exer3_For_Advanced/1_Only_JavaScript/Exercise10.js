@@ -1,1 +1,1 @@
-// Problem: Write a function that rearranges an array so that all even numbers appear before odd numbers.
+// Problem: Write a function that validates a password. The password must be at least 8 characters long and include at least one uppercase letter, one lowercase letter, one digit, and one special character.
