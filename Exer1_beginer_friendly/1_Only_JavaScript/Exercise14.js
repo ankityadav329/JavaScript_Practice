@@ -1,0 +1,1 @@
+// Problem: Write a function that prints the multiplication table of a given number.

@@ -1,0 +1,1 @@
+// Problem: Write a function that prints all even numbers from 1 to 100 using a loop.

@@ -1,0 +1,1 @@
+// Problem: Write a function that finds the second highest number in an array.

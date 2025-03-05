@@ -1,0 +1,1 @@
+// Problem: Write a function that calculates the factorial of a given number using a loop.

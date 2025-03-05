@@ -1,0 +1,1 @@
+// Problem: Write a function that takes a string and returns an object representing the frequency of each character.

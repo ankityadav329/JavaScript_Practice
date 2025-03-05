@@ -1,0 +1,1 @@
+// Problem: Write a function that returns a new array with each element squared.
